@@ -2,10 +2,11 @@
   "compilerOptions": {
     "target": "es6",
     "lib": ["DOM", "DOM.Iterable", "ES6", "ScriptHost"],
-    "module": "commonjs",
+    "module": "amd",
     "rootDir": "./src",
     "allowJs": true,
     "sourceMap": true,
+    "outFile": "./dist/app.js",
     "outDir": "./dist",
     "removeComments": true,
     "noEmitOnError": true,
